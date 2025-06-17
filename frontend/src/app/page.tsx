@@ -1,7 +1,6 @@
 "use client";
 
 import Navbar from "@/components/layout/Navbar";
-import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -29,11 +28,11 @@ export default function Home() {
           className="mt-10"
         >
           <Link href="/challenges">
-            <Button
-              className="text-2xl px-6 py-8 bg-primary font-serif"
+            <div
+              className="text-3xl px-6 py-6 font-serif shadow-lg ring-2 rounded-2xl ring-primary/50 hover:scale-105 transition-transform font-bold"            
             >
               CLICK HERE TO GET STARTED !  😈
-            </Button>
+            </div>
           </Link>
         </motion.div>
         
